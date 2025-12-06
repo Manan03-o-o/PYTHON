@@ -11,3 +11,10 @@ while True:
         print("Too high!")
     else:
         print("Too low!")
+print("Game over.")
+print("The number was:", num)
+print("Thanks for playing!")
+print("Goodbye!")
+print("Have a great day!")
+print("Bye!")
+print("See you next time!")
