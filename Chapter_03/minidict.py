@@ -13,3 +13,5 @@ if search in dictionary:
     print("Synonym:", dictionary[search]["synonym"])
 else:
     print("Not found!")
+# Mini Dictionary Program
+
