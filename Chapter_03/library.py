@@ -30,3 +30,7 @@ while True:
 
     else:
         break
+
+print("Thank you for using the library!")
+
+
