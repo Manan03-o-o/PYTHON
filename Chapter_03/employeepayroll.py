@@ -11,3 +11,12 @@ class Employee:
 emp = Employee("Manan", 30000)
 print("Employee:", emp.name)
 print("Total Salary:", emp.salary())
+
+# Output:   
+# Employee: Manan
+# Total Salary: 3600000.0
+# Employee Payroll System
+# This program calculates the total salary of an employee
+# including HRA and DA based on the basic salary provided.
+# HRA is 20% of basic salary
+# DA is 10% of basic salary 
