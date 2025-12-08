@@ -8,3 +8,4 @@ else:
     fine = 5 * 2 + 5 * 5 + (days - 10) * 10
 
 print("Fine =", fine)
+
