@@ -29,3 +29,23 @@ while True:
         acc.display()
     else:
         break
+    print()
+
+#
+# Sample Interaction:
+# 1.Deposit 2.Withdraw 3.Display 4.Exit 
+# Choice: 1
+# Amount: 500
+#
+# 1.Deposit 2.Withdraw 3.Display 4.Exit
+# Choice: 3
+# 101 Manan 1500
+# 1.Deposit 2.Withdraw 3.Display 4.Exit
+# Choice: 2
+# Amount: 2000
+#
+# Insufficient balance
+# 1.Deposit 2.Withdraw 3.Display 4.Exit
+# Choice: 4 
+# (Program exits)
+
