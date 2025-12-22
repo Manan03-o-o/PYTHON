@@ -16,3 +16,12 @@ key = 3
 enc = encrypt(msg, key)
 print("Encrypted:", enc)
 print("Decrypted:", decrypt(enc, key))
+# Example usage:
+# msg = "Hello, World!"
+# key = 3
+# enc = encrypt(msg, key)
+# print("Encrypted:", enc)
+#
+# dec = decrypt(enc, key)
+# print("Decrypted:", dec)
+
