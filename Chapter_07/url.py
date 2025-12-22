@@ -14,3 +14,9 @@ def expand(key):
 short = shorten("https://google.com")
 print("Short URL:", short)
 print("Original:", expand(short))
+print("Original (invalid):", expand("invalid"))
+# Output:
+# Short URL: <some 6-letter key>
+# Original: https://google.com
+# Original (invalid): Not Found# Simple URL Shortener
+
