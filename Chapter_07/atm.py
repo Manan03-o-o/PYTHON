@@ -37,3 +37,25 @@ if atm.check_pin():
             break
 else:
     print("Wrong PIN")
+class ATM:
+    def __init__(self, pin, balance=0):
+        self.pin = pin
+        self.balance = balance
+
+    def check_pin(self):
+        p = input("Enter PIN: ")
+        return p == self.pin
+
+    def withdraw(self, amt):
+        if amt <= self.balance:
+            self.balance -= amt
+            print("Withdraw Successful")
+        else:
+            print("Insufficient Balance")
+
+    def deposit(self, amt):
+        self.balance += amt
+        print("Deposit Successful")
+
+    def show_balance(self):
+        print("Balance:", self.balance)
