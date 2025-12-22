@@ -14,3 +14,4 @@ while True:
         voted.add(voter)
 
 print("Results:", candidates)
+
