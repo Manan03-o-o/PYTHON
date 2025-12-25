@@ -6,3 +6,12 @@ try:
     print("Website is UP")
 except:
     print("Website is DOWN")
+
+    
+
+
+
+
+
+
+
