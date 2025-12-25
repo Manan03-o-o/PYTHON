@@ -10,3 +10,8 @@ while True:
     if guess == password:
         print("Cracked:", guess, "Attempts:", attempts)
         break
+    if attempts % 100000 == 0:
+        print("Attempts so far:", attempts)
+
+print("Finished in", attempts, "attempts.")
+    
