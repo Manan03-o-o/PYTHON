@@ -19,3 +19,13 @@ for _ in range(9):
             print(turn, "Wins")
             break
         turn = "O" if turn == "X" else "X"
+    else:
+        print("Invalid move, try again.")
+else:
+    print("It's a draw!")
+    
+display()
+    
+    
+
+
