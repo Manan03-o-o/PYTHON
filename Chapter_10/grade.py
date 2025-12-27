@@ -12,3 +12,11 @@ else:
 
 print("Average:", avg)
 print("Grade:", grade)
+
+
+
+
+
+
+
+
