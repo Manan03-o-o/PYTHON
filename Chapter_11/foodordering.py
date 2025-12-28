@@ -12,3 +12,6 @@ while True:
         print(order, "Total:", sum(order.values()))
     else:
         break
+
+print("Thank you!")
+# End of file
