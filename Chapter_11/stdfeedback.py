@@ -9,3 +9,16 @@ while True:
         print(feedback)
     else:
         break
+
+# This code allows users to add feedback associated with their names and view all feedback.
+def add_feedback(name, comment):
+    feedback[name] = comment
+def view_feedback():
+    return feedback
+# Example usage:
+# add_feedback("Alice", "Great service!")
+# print(view_feedback())
+# This code allows users to add feedback associated with their names and view all feedback.
+
+
+
