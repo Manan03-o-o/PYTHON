@@ -12,3 +12,7 @@ while True:
     if inc == 0:
         break
     print("Tax:", tax(inc))
+    print()
+# This program calculates the tax based on income brackets. It continues to prompt the user for income until 0 is entered.
+    # End of file Chapter_12/tax.py
+    
