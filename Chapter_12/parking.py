@@ -29,3 +29,26 @@ while True:
         p.status()
     else:
         break
+    
+# End of parking.py
+# Parking Management
+# Features:
+# 1. Park a car if slots are available. 
+# 2. Exit a car from the parking.
+# 3. View current parking status.
+# 4. Simple command-line interface for interaction.
+
+# Example Usage
+# p = Parking(2)
+# p.park("ABC123")  
+# p.park("XYZ789")
+# p.status()
+# p.exit("ABC123")
+# p.status()
+
+# Output:   
+# Car Parked
+# Car Parked
+# {'ABC123': 'Parked', 'XYZ789': 'Parked'}
+# {'XYZ789': 'Parked'}
+
