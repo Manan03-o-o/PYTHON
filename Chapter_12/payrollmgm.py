@@ -20,3 +20,16 @@ while True:
             print(e.name, e.salary())
     else:
         break
+
+# End of payrollmgm.py
+# Payroll Management System
+# This program allows adding employees and viewing their salaries.
+# Each employee's salary is calculated based on basic pay, HRA, and DA.
+# HRA is 20% of basic pay and DA is 10% of basic pay.
+# The program runs in a loop until the user chooses to exit.
+
+# Example Usage:
+# 1. Add an employee with name "John" and basic pay 1000.
+# 2. View the list of employees and their calculated salaries.
+# 3. Exit the program.
+
