@@ -24,5 +24,12 @@ while True:
         s.add_teacher(input("ID: "), input("Name: "), input("Subject: "))
     elif ch == "3":
         s.view()
-    else:
+    elif ch == "4":
         break
+    else:
+        print("Invalid Choice")
+
+
+
+
+            
