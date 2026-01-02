@@ -11,4 +11,15 @@ if u in users and users[u]["pass"] == p:
 else:
     print("Invalid Login")
 
-    
+# Example usage:
+# Username: admin
+# Password: 123
+# Role: ADMIN
+# Username: user
+# Password: 111
+# Role: USER
+# Username: guest
+# Password: 000
+# Invalid Login
+
+
