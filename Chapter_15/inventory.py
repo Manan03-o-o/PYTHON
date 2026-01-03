@@ -15,3 +15,6 @@ while True:
         print("Total:", sum(sales))
     else:
         break
+
+
+    
