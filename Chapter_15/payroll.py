@@ -15,3 +15,11 @@ while True:
             print(e, employees[e]["salary"])
     else:
         break
+
+# End of payroll.py
+# Payroll Management System
+# Each employee is paid 1000 per day of attendance
+# Employees are stored in a dictionary with their attendance and salary details
+# User can add employees, mark attendance, and calculate salaries
+# Simple command-line interface for interaction
+    
