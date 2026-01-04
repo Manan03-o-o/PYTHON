@@ -11,3 +11,10 @@ while True:
             orders[oid] = "Returned"
     else:
         break
+
+        print("Exiting...")
+        break
+
+    # End of while loop
+    print("Invalid choice. Please try again.")
+       
