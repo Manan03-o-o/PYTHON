@@ -13,3 +13,12 @@ while active:
         print("Balance:", balance)
     elif ch == "4":
         active = False
+    else:
+        print("Invalid choice")
+        continue
+
+print("Exiting...")
+
+print("Final Balance:", balance)
+
+    
