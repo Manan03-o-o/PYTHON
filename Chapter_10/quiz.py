@@ -10,3 +10,8 @@ while i < len(keys):
     i += 1
 
 print("Score:", score)
+print("Final Score:", score, "out of", len(questions))
+print("Percentage:", (score / len(questions)) * 100, "%")
+print("Thank you for participating in the quiz!")
+
+    
