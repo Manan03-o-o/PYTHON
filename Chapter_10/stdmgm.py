@@ -12,3 +12,8 @@ while running:
         print(students)
     elif ch == "3":
         running = False
+    else:
+        print("Invalid Choice")
+        continue
+print("Exiting...")
+
