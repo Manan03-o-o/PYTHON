@@ -9,3 +9,8 @@ while attempts > 0:
     else:
         attempts -= 1
         print("Attempts left:", attempts)
+        if attempts == 0:
+            print("Login Failed")
+            break
+        
+print("Exiting...")
