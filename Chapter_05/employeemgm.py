@@ -16,3 +16,9 @@ while running:
             del employees[eid]
     elif ch == "4":
         running = False
+    else:
+        print("Invalid choice")
+        continue
+
+print("Exiting...")
+
