@@ -9,3 +9,8 @@ while attempts > 0:
     else:
         attempts -= 1
         print("Attempts left:", attempts)
+        if attempts == 0:
+            print("Access Denied")
+        else:
+            print("Incorrect password, try again.")
+            
