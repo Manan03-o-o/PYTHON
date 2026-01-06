@@ -15,3 +15,11 @@ while flag:
         print(inventory)
     elif ch == "4":
         flag = False
+    else:
+        print("Invalid Choice") 
+print("Exiting...")
+
+
+        # End of Program
+# Simple Inventory Management System
+
