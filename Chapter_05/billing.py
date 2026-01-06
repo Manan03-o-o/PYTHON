@@ -12,3 +12,7 @@ while shopping:
         print("Total:", sum(cart.values()))
     elif ch == "3":
         shopping = False
+    else:
+        print("Invalid Choice")
+print("Thank you for shopping!")
+
