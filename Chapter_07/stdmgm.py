@@ -25,3 +25,13 @@ while running:
 
     elif ch == "5":
         running = False
+    else:
+        print("Invalid Choice")
+
+        # End of the program
+        # End of the program
+print("Exiting...")
+
+
+#this is a simple student management system that allows adding students and courses, enrolling students in courses, and viewing the current data.
+
