@@ -19,3 +19,11 @@ while flag:
 
     elif ch == "4":
         flag = False
+    else:
+        print("Invalid Choice")
+
+print("Exiting...")
+
+
+#This is a simple room booking system that allows booking rooms, checking out, viewing room status, and exiting the program.
+
