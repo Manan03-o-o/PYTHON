@@ -20,3 +20,8 @@ while shop:
 
     elif ch == "4":
         shop = False
+    else:
+        print("Invalid Choice") 
+print("Thank you for shopping!")
+
+    
