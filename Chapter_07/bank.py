@@ -23,3 +23,6 @@ while active:
 
     elif ch == "4":
         active = False
+    else:
+        print("Invalid choice")
+        
