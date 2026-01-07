@@ -29,3 +29,10 @@ while run:
 
     elif ch == "5":
         run = False
+    else:
+        print("Invalid Choice")
+
+print("Exiting...")
+
+#This is a simple library management system that allows adding books, issuing books to users, returning books, and checking the status of books and issued books.
+
