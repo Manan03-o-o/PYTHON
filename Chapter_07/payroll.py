@@ -19,3 +19,10 @@ while loop:
 
     elif ch == "4":
         loop = False
+    else:
+        print("Invalid Choice")
+
+print("Exiting...")
+
+#This is a simple payroll management system that allows adding employees, marking attendance days, calculating salaries, and exiting the program.
+
